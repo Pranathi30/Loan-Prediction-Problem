@@ -5,7 +5,7 @@ https://datahack.analyticsvidhya.com/contest/practice-problem-loan-prediction-ii
 
 Steps to solve the problem:
 
-Tried different problems to check how the accuracy varies. I found that with logistic regression and XGBoost without any feature engineering the accuracy did not change and it was found to be 0.778. While it reduced with Random Forest.
+Tried different models to check how the accuracy varies. I found that with logistic regression and XGBoost without any feature engineering the accuracy did not change and it was found to be 0.778. While it reduced with Random Forest.
 The accuracy has increased when features like loan_income_ratio and income_per_dependent were introduced with XGBoost. It was found to be 0.801.Hence I took XGBoost with feature engineering as my main model
 
 1) Basic preprocessing :
